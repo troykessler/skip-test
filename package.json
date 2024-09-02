@@ -1,0 +1,14 @@
+{
+  "name": "skip-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "tsc index.ts && node index.js"
+  },
+  "dependencies": {
+    "@skip-go/client": "^0.8.0",
+    "typescript": "^5.5.4"
+  }
+}
